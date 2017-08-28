@@ -1,0 +1,24 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+
+nav {
+    display: flex;
+    color: $whitegray;
+   background-color: $blacksec;
+    img {
+        display: flex;
+        width: 33%;
+    }
+    ul { display: flex;
+        width: 100%;
+        min-height: 30px;
+        margin-left: 5px;
+    }
+    li{
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: space-between;
+        
+    }
+}

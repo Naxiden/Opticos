@@ -44,20 +44,3 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-nav {
-  display: flex;
-  color: #F6F6F6;
-  background-color: #2B2B2B; }
-  nav img {
-    display: flex;
-    width: 33%; }
-  nav ul {
-    display: flex;
-    width: 100%;
-    min-height: 30px;
-    margin-left: 5px; }
-  nav li {
-    flex-direction: row;
-    flex-grow: 1;
-    justify-content: space-between; }
