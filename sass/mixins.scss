@@ -1,0 +1,9 @@
+//mixins
+
+@import "variables";
+
+@mixin sectioner {
+    width: 100%;
+    background: $simgreen;
+    min-height: 600px;
+}

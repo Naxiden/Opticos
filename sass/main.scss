@@ -22,3 +22,19 @@ nav {
         
     }
 }
+#main-site {
+    @include sectioner;
+    display: flex;
+    
+}
+.main-section-image {
+    min-height: 300px;
+    width: 100%;
+    background: url("http://via.placeholder.com/750x100");
+    background-size: contain;
+    align-self: center;
+    margin: 0 auto;
+   
+    
+    
+}
