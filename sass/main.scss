@@ -1,40 +1,82 @@
 @import "reset";
 @import "variables";
 @import "mixins";
+body {
+    box-sizing: border-box;
+}
 
 nav {
     display: flex;
     color: $whitegray;
-   background-color: $blacksec;
+    background-color: $blacksec;
     img {
         display: flex;
         width: 33%;
     }
-    ul { display: flex;
+    ul {
+        display: flex;
         width: 100%;
         min-height: 30px;
         margin-left: 5px;
     }
-    li{
+    li {
         flex-direction: row;
         flex-grow: 1;
         justify-content: space-between;
-        
     }
 }
+
 #main-site {
     @include sectioner;
     display: flex;
+    flex-wrap: wrap;
+    h1 {
+        @include hajeden;
+        width: 100%;
+        margin-top: 20px;
+    }
+    p {
+        display: flex;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 20px;
+    }
     
 }
+
 .main-section-image {
-    min-height: 300px;
+    min-height: 500px;
     width: 100%;
-    background: url("http://via.placeholder.com/750x100");
-    background-size: contain;
     align-self: center;
     margin: 0 auto;
-   
+    margin-top: 20px;
     
+    img {
+        width: 100%;
+        height: 500px;
+    }
     
+}
+
+.profiles-main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.profil1,
+.profil2 {
+    @include profiles;
+    img {
+        align-self: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    h2 {
+        @include hadwa;
+        margin-bottom: 20px;
+    }
 }

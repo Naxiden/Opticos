@@ -4,6 +4,30 @@
 
 @mixin sectioner {
     width: 100%;
-    background: $simgreen;
+    background: $whitegray;
     min-height: 600px;
+}
+
+@mixin profiles {
+    width: 40%;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+@mixin hadwa {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 35px;
+    color: $darkred;
+    text-align: center;
+    margin-top:20px;
+}
+
+@mixin hajeden {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 45px;
+    color: $darkred;
+    text-align: center;
+    margin-top:20px;
+    
 }
