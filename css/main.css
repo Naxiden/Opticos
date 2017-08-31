@@ -87,16 +87,6 @@ nav {
     margin-top: 20px;
     font-size: 20px; }
 
-.main-section-image {
-  min-height: 500px;
-  width: 100%;
-  align-self: center;
-  margin: 0 auto;
-  margin-top: 20px; }
-  .main-section-image img {
-    width: 100%;
-    height: 500px; }
-
 .profiles-main {
   width: 100%;
   display: flex;
@@ -121,3 +111,21 @@ nav {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px; }
+
+.destination {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .destination .circle-container {
+    display: flex;
+    width: 45%;
+    min-height: 100px;
+    margin: 0 auto;
+    margin-top: 20px; }
+    .destination .circle-container div {
+      background: url("/img/circle2.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 30%;
+      min-height: 200px;
+      flex-wrap: wrap; }
